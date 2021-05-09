@@ -1,0 +1,155 @@
+/* HTML Elements */
+
+body
+{
+    text-align: center;
+}
+
+h1
+{
+    font-size: 5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+h2
+{
+    font-size: 2.25rem;  
+    line-height: 1.5; 
+}
+h3
+{
+    font-size: 3.5rem;
+}
+h4
+{
+    color: #fff;
+}
+
+h3, h4, h5
+{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    margin-bottom: 7%;
+}
+h4, h5
+{
+    font-size: 2.5rem;
+}
+
+p
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+/* Classes */
+
+.colored_section
+{
+    /* background-color: #51c4d3; */
+    /* background-color: #98ded9; */
+    background-color: #95e1d3;
+}
+.white_section
+{
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar
+{
+    padding: 3% 13% 0% 5%;
+}
+.nav-item
+{
+    padding: 3%;
+    font-size: 1.5rem;
+    font-family: 'Comfortaa', cursive;
+}
+.navbar-brand
+{
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+/* About Section */
+.carousel
+{
+    padding: 10%;
+    padding-top: 0;
+}
+.carousel-indicators .indicators{
+    background-color: black;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon 
+{
+    filter: invert(1);
+}
+.caption
+{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2.5;
+    color: #fff;
+}
+
+/* Contact Section & Footer */
+.contact_icon
+{
+    padding-bottom: 13%;
+}
+
+.copyright
+{
+    font-size: 1.25rem;
+}
+
+
+/* IDs */
+
+/* Title Section */
+#title_div
+{
+    padding: 7% 15% 10%;
+}
+#title_text
+{
+    padding-left: 0;
+    font-family: 'Kaushan Script', cursive;
+    color: #fff;
+}
+#title_image
+{
+    padding-right: 0;
+}
+
+/* About Section */
+#about
+{
+    margin: 7%;
+}
+
+/* Skill Section */
+#skills
+{
+    padding: 7% 17% 0;
+}
+#skill_list
+{
+    padding-bottom: 3%;
+}
+
+/* Contact Section */
+#contact
+{
+    margin: 10% 0% 5%;
+}
+#contact_list
+{
+    margin: 9% 25% 0%;
+}
